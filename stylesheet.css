@@ -9,10 +9,10 @@ a:hover {
   }
 
 div.liste{
-
     display: flex;
     flex-direction: row;
   }
+  
   div.bildeListe{
     padding-right: 20px;
   }
