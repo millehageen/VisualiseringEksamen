@@ -1,6 +1,7 @@
-h1{
-    background-color: blue;
+body{
+    background-image:url(yaleBygg.jpeg);
 }
+
 a:active {
     color: blue;
   }
@@ -12,30 +13,49 @@ div.liste{
     display: flex;
     flex-direction: row;
   }
-  
+
   div.bildeListe{
     padding-right: 20px;
   }
 
 div.hovedboks{
-    background-color: cornflowerblue;
     display: flex;
     flex-direction: row;
 }
+div.venstre{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+div.hoyre{
+    background-color: honeydew;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    height:fit-content;
+}
 div.navbar{
     background-color: darkseagreen;
-    width: 300px;
+    width: 200px;
     }
 div.overskrift{
+    margin-top: 35px;
+    margin-left: 530px;
+    background-color: lightgrey;
+    width: 300px;
     text-align: center;
 }
-div.midtboks{
-
+div.midtBoks{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
 }
-div.infoYale{
 
+div.infoYale{
     width:fit-content;
-    padding: 20px;
+    padding: 10px;
+    background-color: grey;
 }
 div.sideboks{
     text-align: center;
@@ -48,6 +68,8 @@ div.innrammingsBoks1{
 display: flex;
 flex-direction: row;
 padding: 10px;
+background-color: grey;
+margin-top: 10px;
 }
 div.skolePoengUtenforBoks{
     width: 50%;
@@ -69,4 +91,8 @@ div.skolePoengBoks{
     background-color: lightcoral;
     text-emphasis-color: red;
     border-color: red;
+}
+div.about{
+    background-color: grey;
+    margin-top: 10px;
 }

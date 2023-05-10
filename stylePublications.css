@@ -1,0 +1,91 @@
+body{
+    background-image:url(avis.jpeg);
+}
+div.hovedboks{
+    display:flex;
+    flex-direction: row;
+}
+div.overskrift{
+    margin-top: 35px;
+    margin-left: 530px;
+    background-color: lightgrey;
+    width: 300px;
+    text-align: center;
+    }
+div.navbar{
+    background-color: darkseagreen;
+    width: 200px;
+    padding:10px;
+    margin: 10px;
+}
+div.venstre{
+    width: 25%;
+}
+div.toppboks{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: grey;
+}
+div.mfaBookTopp{
+    display: flex;
+    flex-direction: row;
+}
+div.bok{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding:5px;
+}
+div.bokBunn{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding:5px;
+    background-color: grey;
+}
+div.coommencementTopp{
+    display: flex;
+    flex-direction: row;
+
+    padding:5px;
+}
+div.com{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding:5px;
+}
+div.midtBoks{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    background-color: grey;
+    margin: 25px;
+
+}
+div.midtHoyreBoks{
+    display: flex;
+    flex-direction: row;
+}
+div.hoyre{
+    width: 200px;
+    padding: 10px;
+    background-color: lightgrey;
+    height: fit-content;
+    margin-right: 10px;
+}
+div.bokTekst{
+    margin: 10px;
+    width: 500px;
+}
+div.bokTekstT{
+    margin: 10px;
+}
+div.bokOverTekst{
+    width: 800px;
+    background-color: grey;
+}
+div.toppBoks2{
+    background-color: grey;
+}

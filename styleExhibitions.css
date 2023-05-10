@@ -2,7 +2,11 @@ body{
     background-image:url(greenHouse.jpeg);
 }
 div.overskrift{
-margin-top: 35px;
+    margin-top: 35px;
+    margin-left: 530px;
+    background-color: lightgrey;
+    width: 300px;
+    text-align: center;
 }
 div.navbar{
     background-color: darkseagreen;
@@ -12,8 +16,7 @@ div.venstre{
     width: 400px;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-
+    padding: 10px;
 }
 div.boks2{
     display: flex;

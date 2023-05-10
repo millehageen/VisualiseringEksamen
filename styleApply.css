@@ -27,6 +27,10 @@ div.navbar{
     width: 30%;
     }
 div.overskrift{
+    margin-top: 35px;
+    margin-left: 530px;
+    background-color: lightgrey;
+    width: 300px;
     text-align: center;
 }
 div.midtboks{
