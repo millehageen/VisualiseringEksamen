@@ -1,5 +1,5 @@
-h1{
-    background-color: blue;
+body{
+    background-image:url(yaleBygg.jpeg);
 }
 a:active {
     color: blue;
@@ -9,7 +9,6 @@ a:hover {
   }
 
 div.liste{
-
     display: flex;
     flex-direction: row;
   }
@@ -17,15 +16,22 @@ div.liste{
     padding-right: 20px;
   }
 
-div.hovedboks{
-    background-color: cornflowerblue;
+  div.venstre{
+    width: 400px;
     display: flex;
-flex-direction: row;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+div.hovedboks{
+    display: flex;
+    flex-direction: row;
 }
 div.navbar{
     background-color: darkseagreen;
-    width: 30%;
+    width: 200px;
     }
+
 div.overskrift{
     margin-top: 35px;
     margin-left: 530px;
@@ -33,32 +39,34 @@ div.overskrift{
     width: 300px;
     text-align: center;
 }
-div.midtboks{
-
-display: flex;
-flex-direction: row;
+div.midtHoyre{
+    display: flex;
+    flex-direction: row;
+}
+div.midt{
+    display: flex;
+    flex-direction: column;
 }
 div.infoYale{
-
     width:fit-content;
     padding: 20px;
+    background-color: lightgrey;
 }
-div.sideboks{
+div.hoyre{
     text-align: center;
-    background-color:darkseagreen;
     display: block;
+    width: 200px;
 }
-
-
 div.innrammingsBoks1{
 display: flex;
 flex-direction: row;
 padding: 10px;
 }
-div.skolePoengUtenforBoks{
+div.deadline{
     width: 50%;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: lightgrey;
 }
 
 div.SkoleBoTidUtenforBoks{
@@ -69,7 +77,7 @@ div.SkoleBoTidUtenforBoks{
     flex-direction: row;
 }
 
-div.skolePoengBoks{
+div.deadlineBoks{
     height: auto;
     width: 100px;
     background-color: lightcoral;
@@ -78,9 +86,21 @@ div.skolePoengBoks{
 }
 
 div.sporsmal1{
-    padding-bottom: 300px;
+    margin-bottom: 200px;
+    background-color:honeydew;;
 }
-div.boksInto{
-    display: flexbox;
+div.sporsmal2{
+    background-color: honeydew;
+}
+div.boksInfo{
+    display: flex;
     flex-direction: row;
+    background-color: lightgrey;
+    width: 800px;
+    margin:20px;
+    padding: 10px;
+}
+div.NB{
+    margin-top: 30px;
+    background-color: lightcoral;
 }
