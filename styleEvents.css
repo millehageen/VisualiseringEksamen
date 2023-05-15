@@ -1,0 +1,63 @@
+body{
+    background-image:url(yaleBygg.jpeg);
+}
+div.overskrift{
+    margin-top: 35px;
+    margin-left: 530px;
+    background-color: lightgrey;
+    width: 300px;
+    text-align: center;
+}
+div.venstre{
+    padding: 10px;
+}
+div.navbar{
+    background-color: darkseagreen;
+    width: 200px;
+    padding: 10px;
+    }
+div.hovedBoks{
+    display:flex;
+    flex-direction: row;
+}
+div.midtHoyre{
+    display:flex;
+    flex-direction: row;
+}
+div.midt{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+div.hoyre{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+}
+div.kalender1{
+    background-color: lightgray;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+div.kalender2{
+    background-color: lightgray;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+}
+div.boks1{
+    background-color: lightgray;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+div.boks2{
+    background-color: lightgray;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+}
