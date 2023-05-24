@@ -80,9 +80,8 @@ div.SkoleBoTidUtenforBoks{
 div.deadlineBoks{
     height: auto;
     width: 100px;
-    background-color: lightcoral;
-    text-emphasis-color: red;
-    border-color: red;
+    padding: 5px;
+    background-color:yellow;
 }
 
 div.sporsmal1{

@@ -38,6 +38,8 @@ div.hoyre{
 div.navbar{
     background-color: darkseagreen;
     width: 200px;
+    border-style: solid;
+    border-color: black;
     }
 div.overskrift{
     margin-top: 35px;
@@ -84,13 +86,26 @@ div.SkoleBoTidUtenforBoks{
     display: flex;
     flex-direction: row;
 }
+div.boksUtenpa{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: black;
+    margin:5px;
+}
 
+
+div.skolePoengBoks1{
+    height: auto;
+    width: 100px;
+    padding: 5px;
+    background-color: lightcoral;
+}
 div.skolePoengBoks{
     height: auto;
     width: 100px;
-    background-color: lightcoral;
-    text-emphasis-color: red;
-    border-color: red;
+    padding: 5px;
+    background-color: lightsalmon;
 }
 div.about{
     background-color: grey;

@@ -1,0 +1,54 @@
+body{
+    background-image:url(yaleBygg.jpeg);
+}
+div.overskrift{
+    margin-top: 35px;
+    margin-left: 530px;
+    background-color: lightgrey;
+    width: 300px;
+    text-align: center;
+}
+div.overskrift2{
+    margin-top: 35px;
+    background-color: lightgrey;
+    width: 300px;
+    text-align: center;
+    align-self: center;
+}
+div.venstre{
+    padding: 10px;
+}
+div.navbar{
+    background-color: darkseagreen;
+    width: 200px;
+    padding: 10px;
+    }
+div.hovedBoks{
+    display:flex;
+    flex-direction: row;
+}
+div.midtHoyre{
+    display:flex;
+    flex-direction: row;
+}
+div.midt{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+div.hoyre{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+}
+div.april{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 10px;
+}
+div.bilde{
+    padding: 10px;
+}
