@@ -11,6 +11,8 @@ div.overskrift{
 div.navbar{
     background-color: darkseagreen;
     width: 200px;
+    border-style: solid;
+    border-color: black;
     }
 div.venstre{
     width: 400px;
