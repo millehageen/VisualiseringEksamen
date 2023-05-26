@@ -62,7 +62,7 @@ div.midtBoks{
     display: flex;
     flex-direction: column;
     width: 900px;
-    background-color: grey;
+
     margin: 25px;
 
 }
@@ -87,7 +87,11 @@ div.bokTekstT{
 div.bokOverTekst{
     width: 800px;
     background-color: grey;
+    margin-top: 50px;
 }
 div.toppBoks2{
+    background-color: grey;
+}
+div.boks1{
     background-color: grey;
 }

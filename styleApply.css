@@ -57,7 +57,7 @@ div.infoYale{
 div.hoyre{
     text-align: center;
     display: block;
-    width: 200px;
+    width: 300px;
 }
 div.innrammingsBoks1{
 display: flex;
@@ -89,19 +89,23 @@ div.deadlineBoks{
 div.sporsmal1{
     margin-bottom: 200px;
     background-color:honeydew;;
+    padding: 10px;
 }
 div.sporsmal2{
     background-color: honeydew;
+    padding: 10px;
 }
 div.boksInfo{
     display: flex;
     flex-direction: row;
     background-color: lightgrey;
-    width: 800px;
+
     margin:20px;
     padding: 10px;
 }
 div.NB{
     margin-top: 30px;
-    background-color: lightcoral;
+    background-color:orangered;
+    padding:10px;
+    width: 300px;
 }
