@@ -27,7 +27,7 @@ div.toppboks{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: grey;
+    background-color: lightgrey;
 }
 div.mfaBookTopp{
     display: flex;
@@ -44,7 +44,7 @@ div.bokBunn{
     flex-direction: row;
     margin: 10px;
     padding:5px;
-    background-color: grey;
+    background-color: lightgrey;
 }
 div.coommencementTopp{
     display: flex;
@@ -73,7 +73,7 @@ div.midtHoyreBoks{
 div.hoyre{
     width: 200px;
     padding: 10px;
-    background-color: lightgrey;
+    background-color: lightskyblue;
     height: fit-content;
     margin-right: 10px;
 }
@@ -86,12 +86,13 @@ div.bokTekstT{
 }
 div.bokOverTekst{
     width: 800px;
-    background-color: grey;
-    margin-top: 50px;
+    background-color: lightgrey;
+    margin-top: 70px;
+    padding:10px;
 }
 div.toppBoks2{
-    background-color: grey;
+    background-color: lightgrey;
 }
 div.boks1{
-    background-color: grey;
+    background-color: lightgrey;
 }
